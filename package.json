@@ -1,0 +1,23 @@
+{
+  "name": "vscode-todo-highlight",
+  "displayName": "Todo Highlight",
+  "version": "1.0.0",
+  "description": "Todo Highlight \u2014 VS Code extension",
+  "publisher": "devkit",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-todo-highlight.hello",
+        "title": "Todo Highlight: Hello"
+      }
+    ]
+  }
+}
